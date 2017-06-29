@@ -10,7 +10,7 @@ import { Router, browserHistory } from 'react-router'
 const repo = new Repo()
 
 // Then mount the application
-return DOM.render((
+DOM.render((
   <Presenter repo={repo}>
     <Router history={browserHistory} routes={routes} />
   </Presenter>
